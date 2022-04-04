@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST))
+     if(isset($_POST['submit']))
     {
         include_once('config.php');
 
@@ -25,7 +25,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg,black,rgb(238, 98, 98));
+            background-image: linear-gradient(to left,black,rgb(238, 98, 98));
         }
         .box{
             color: aliceblue;
